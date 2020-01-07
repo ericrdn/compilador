@@ -15,4 +15,4 @@ RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 RUN python get-pip.py
  
 ##Instalando dependencias especificas do Selenium IDE
-RUN pip install peru
+RUN pip3 install peru
